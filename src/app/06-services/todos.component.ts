@@ -4,7 +4,7 @@ import { OnInit } from '@angular/core';
 
 export class TodosComponent implements OnInit {
     todos: any[] = [];
-    message;
+    message: string;
 
     constructor(private service: TodoService) { }
 
@@ -14,7 +14,7 @@ export class TodosComponent implements OnInit {
     }
 
     add() {
-        const newTodo = { title: '... ' };
+        const newTodo: Object = { title: '... ' };
         this.service.add(newTodo).subscribe(
             t => this.todos.push(t),
             err => this.message = err

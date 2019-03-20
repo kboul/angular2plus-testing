@@ -1,4 +1,4 @@
 
-export function getCurrencies() {
+export function getCurrencies(): Array<string> {
     return ['USD', 'AUD', 'EUR'];
 }
