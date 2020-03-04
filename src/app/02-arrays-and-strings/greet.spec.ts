@@ -1,7 +1,7 @@
-import { greet } from './greet';
+import { greet } from "./greet";
 
-describe('greet', () => {
-    it('should include the name in the message', () => {
-        expect(greet('mosh')).toContain('Welcome mosh');
-    });
+describe("greet", () => {
+	it("should include the name in the message", () => {
+		expect(greet("mosh")).toContain("Welcome mosh");
+	});
 });
