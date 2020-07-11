@@ -1,6 +1,8 @@
 # Angular2plusTesting
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+Unit testing several simple Angular 10 components & functions.
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.1.
 
 ## Development server
 
